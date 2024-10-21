@@ -28,22 +28,22 @@ This application has the functionality to save important links, where it is poss
 ## Screenshots
 
 <div align="center"> 
-  <img src="/.github/img_1.jpeg" alt="home" width="400" />
+  <img src="/.github/img_1.png" alt="home" width="400" />
 </div>
 <br/>
 <br/>
 <div align="center"> 
-  <img src="/.github/img_2.jpeg" alt="add" width="400" />
+  <img src="/.github/img_2.png" alt="add" width="400" />
 </div>
 <br/>
 <br/>
 <div align="center"> 
-  <img src="/.github/img_3.jpeg" alt="selected" width="400" />
+  <img src="/.github/img_3.png" alt="selected" width="400" />
 </div>
 <br/>
 <br/>
 <div align="center"> 
-  <img src="/.github/img_4.jpeg" alt="delete-warning" width="400" />
+  <img src="/.github/img_4.png" alt="delete-warning" width="400" />
 </div>
 
 <br/>
