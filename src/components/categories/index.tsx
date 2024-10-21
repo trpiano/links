@@ -12,6 +12,14 @@ type CategoriesProps = {
 }
 
 export function Categories({ selected, onChangeSelected }: CategoriesProps) {
+    function handleSelected(selected: string, name: string){
+        if(selected === name){
+            onChangeSelected("")
+        } else {
+            onChangeSelected(name)
+        }
+    }
+
     return (
         <FlatList
             style={styles.container}
@@ -22,7 +30,7 @@ export function Categories({ selected, onChangeSelected }: CategoriesProps) {
                     name={item.name}
                     icon={item.icon}
                     isSelected={item.name === selected}
-                    onPress={() => onChangeSelected(item.name)}
+                    onPress={() => handleSelected(selected, item.name)}
                 />
             }
             horizontal
