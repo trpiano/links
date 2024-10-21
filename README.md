@@ -17,30 +17,36 @@
   <img alt="GitHub" src="https://img.shields.io/github/license/trpiano/links?color=%BD93EC">
 </p>
 
+<br/>
+
 ## About
 
 This application has the functionality to save important links, where it is possible to save them by category.
 
+<br/>
+
 ## Screenshots
 
 <div align="center"> 
-  <img src="/.github/img_1.jpeg" alt="home" />
+  <img src="/.github/img_1.jpeg" alt="home" width="400" />
 </div>
 <br/>
 <br/>
 <div align="center"> 
-  <img src="/.github/img_2.jpeg" alt="add" />
+  <img src="/.github/img_2.jpeg" alt="add" width="400" />
 </div>
 <br/>
 <br/>
 <div align="center"> 
-  <img src="/.github/img_3.jpeg" alt="selected" />
+  <img src="/.github/img_3.jpeg" alt="selected" width="400" />
 </div>
 <br/>
 <br/>
 <div align="center"> 
-  <img src="/.github/img_4.jpeg" alt="delete-warning" />
+  <img src="/.github/img_4.jpeg" alt="delete-warning" width="400" />
 </div>
+
+<br/>
 
 ## Technologies
 
@@ -49,10 +55,14 @@ The following tools were used in this project:
 - [React-Native](https://reactnative.dev/)
 - [Expo](https://expo.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
+  
+<br/>
 
 ## Requirements
 
 Before starting 🏁, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+
+<br/>
 
 ## Getting Started
 
