@@ -1,15 +1,21 @@
 import { Image, View, TouchableOpacity, FlatList, Modal, Text } from 'react-native'
+import { useState } from 'react'
+import { router } from 'expo-router'
 import { MaterialIcons } from '@expo/vector-icons'
 
 import { Categories } from '@/components/categories'
 import { Link } from '@/components/link'
 import { Option } from '@/components/option'
 
+import { categories } from '@/utils/categories'
+
 import { colors } from '@/styles/colors'
 import { styles } from './styles'
 
 export default function Index() {
-    const LogoImage = require("@/assets/logo.png")
+    // const LogoImage = require("@/assets/logo.png")
+
+    const [category, setCategory] = useState(categories[0].name)
 
     return (
         <View style={styles.container}>
@@ -18,13 +24,13 @@ export default function Index() {
                     uri: 'https://firebasestorage.googleapis.com/v0/b/test-9bf97.appspot.com/o/links-project%2Flogo.png?alt=media&token=6fd78ed6-22c8-4295-980f-582fbe30bfa0',
                 }} style={styles.logo} />
 
-                <TouchableOpacity activeOpacity={0.7}>
+                <TouchableOpacity activeOpacity={0.7} onPress={() => router.navigate("/add")}>
                     <MaterialIcons name="add" size={32} color={colors.green[300]} />
                 </TouchableOpacity>
             </View>
 
-            <Categories />
-
+            <Categories selected={category} onChangeSelected={setCategory} />
+ 
             <FlatList
                 data={["1", "2", "3", "4"]}
                 keyExtractor={(item) => item}
