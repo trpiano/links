@@ -28,7 +28,7 @@ This application has the functionality to save important links, where it is poss
 ## Screenshots
 
 <div align="center"> 
-  <img src="/.github/img_1.png" alt="home" width="400" />
+  <img src="/.github/img_1_first.png" alt="home" width="400" />
 </div>
 <br/>
 <br/>
